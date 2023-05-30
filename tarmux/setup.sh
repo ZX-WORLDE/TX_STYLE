@@ -80,6 +80,9 @@ case ${yn} in
 esac
 
 # Error msg for invalid choice
-echo -e "${red}Invalid choice!${nocol}"
+
 echo ""
+install_dependencies
+install_ohmyzsh
+finish_install
 exit 1
