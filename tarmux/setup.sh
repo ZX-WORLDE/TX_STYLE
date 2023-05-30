@@ -66,9 +66,7 @@ finish_install() {
 }
 
 # Start installation
-echo -e "${green}[press enter and don't skip]${nocol}"
-read -p "" -n 1 -r yn;
-echo "" # For newline
+
 
 echo ""
 install_dependencies
