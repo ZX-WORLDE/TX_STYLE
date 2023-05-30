@@ -69,17 +69,6 @@ finish_install() {
 echo -e "${green}[press enter and don't skip]${nocol}"
 read -p "" -n 1 -r yn;
 echo "" # For newline
-case ${yn} in
-    []* )
-        install_dependencies
-        install_ohmyzsh
-        finish_install
-        exit 0
-
-    ;;
-esac
-
-# Error msg for invalid choice
 
 echo ""
 install_dependencies
