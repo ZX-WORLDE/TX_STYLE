@@ -70,3 +70,4 @@ if [[ -z "$yn" ]]; then
     install_ohmyzsh
     finish_install
     exit 0
+fi
