@@ -15,7 +15,7 @@ WORKING_DIR="${HOME}/.termux"
 echo -e "
 $(toilet -t -f smslant -F crop Font Changer)
 
-Default font is ${green}JetBrains Mono Regular${nocol}
+Default font is ${green}JetBrains Mono Regular${nocol}"
 
 
 echo -e "
