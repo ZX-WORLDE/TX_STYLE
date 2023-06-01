@@ -18,7 +18,7 @@ count=1
 echo -e "
 $(toilet -t -f smslant -F crop Color Changer)
 
-Default color scheme is ${green}IrBlack${nocol}
+Default color scheme is ${green}IrBlack${nocol}"
 
 
 echo -e "
