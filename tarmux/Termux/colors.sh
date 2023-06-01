@@ -19,7 +19,7 @@ echo -e "
 $(toilet -t -f smslant -F crop Color Changer)
 
 Default color scheme is ${green}IrBlack${nocol}
-All color schemes are taken from: ${green}https://github.com/mbadolato/iTerm2-Color-Schemes${nocol}"
+
 
 echo -e "
 [${green}1${nocol}] Light themes
