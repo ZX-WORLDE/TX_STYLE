@@ -16,7 +16,7 @@ echo -e "
 $(toilet -t -f smslant -F crop Font Changer)
 
 Default font is ${green}JetBrains Mono Regular${nocol}
-All fonts except MesloLGS are taken from: ${green}https://github.com/ryanoasis/nerd-fonts${nocol}"
+
 
 echo -e "
 [${green}1${nocol}] JetBrains Mono Light
