@@ -76,7 +76,7 @@ finish_install() {
     echo -e "${green}Setup Completed!${nocol}"
     echo -e "${green}Please restart Termux!${nocol}"
 }
- 
+eval
 install_dependencies
 install_ohmyzsh
 finish_install
