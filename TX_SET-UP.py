@@ -93,6 +93,7 @@ def zx():
             os.system("cd tarmux && bash setup.sh")
             with open("sarv.txt", "w") as file:
                 file.write("FILE")
+                TX_SL()
             TX_SL()
         else:
             os.system("clear")
