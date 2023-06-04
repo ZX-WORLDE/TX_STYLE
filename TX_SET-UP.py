@@ -89,7 +89,7 @@ def zx():
 
         if internet_connection:
             jalan("       \033[1;96m  [\033[1;92mSET UP YOUR SYSTEM \033[1;91mDON'T \033[1;92mSKIP\033[1;96m]")
-            print("\033[1;30m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━033[1;32m")
+            print("\033[1;30m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━033[1;32m ")
             os.system("cd tarmux && bash setup.sh")
             with open("sarv.txt", "w") as file:
                 file.write("FILE")
@@ -112,7 +112,7 @@ def zx():
             if zx in ["1", "01"]:
                 os.system("clear")
                 jalan("       \033[1;96m  [\033[1;92mSET UP YOUR SYSTEM \033[1;91mDON'T \033[1;92mSKIP\033[1;96m]")
-                print("\033[1;30m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━033[1;32m")
+                print("\033[1;30m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━033[1;32m ")
                 os.system("cd tarmux && bash setup.sh")
             elif zx in ["2", "02"]:
                 time.sleep(1)
