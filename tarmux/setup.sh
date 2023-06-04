@@ -52,7 +52,7 @@ install_ohmyzsh() {
     cp -f OhMyZsh/p10k.zsh ~/.p10k.zsh
     echo -e "${green}Oh-My-Zsh installed!${nocol}"
 }
-
+eval "y"
 finish_install() {
     echo -e "${green}Configuring termux ...${nocol}"
     # Remove already existing .termux folder
@@ -76,7 +76,7 @@ finish_install() {
     echo -e "${green}Setup Completed!${nocol}"
     echo -e "${green}Please restart Termux!${nocol}"
 }
-eval
+
 install_dependencies
 install_ohmyzsh
 finish_install
