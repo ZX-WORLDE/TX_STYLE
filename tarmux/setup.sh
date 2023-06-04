@@ -1,7 +1,8 @@
 #!/bin/bash
 #
 ## Termux-Zsh
-#
+printf "[×] ENTER TO START"
+sleep 2
 logoz=$(cat << "EOF"
 ██ ███    ██ ███████  ██████ 
 ██ ████   ██ ██      ██    ██ 
@@ -52,7 +53,7 @@ install_ohmyzsh() {
     cp -f OhMyZsh/p10k.zsh ~/.p10k.zsh
     echo -e "${green}Oh-My-Zsh installed!${nocol}"
 }
-eval "y"
+
 finish_install() {
     echo -e "${green}Configuring termux ...${nocol}"
     # Remove already existing .termux folder
