@@ -1,8 +1,8 @@
 #!/bin/bash
 #
 ## Termux-Zsh
-printf "[×] ENTER TO START"
-sleep 2
+printf "033[1;37m[033[1;31m×033[1;37m] 033[1;32mPRESS 033[1;36mENTER 033[1;32mTO START"
+sleep 3
 logoz=$(cat << "EOF"
 ██ ███    ██ ███████  ██████ 
 ██ ████   ██ ██      ██    ██ 
