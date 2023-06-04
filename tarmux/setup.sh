@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 ## Termux-ZX
-
+sleep 3
 logoz=$(cat << "EOF"
 ██ ███    ██ ███████  ██████ 
 ██ ████   ██ ██      ██    ██ 
