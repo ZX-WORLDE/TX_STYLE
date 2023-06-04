@@ -18,9 +18,7 @@ RED="\e[0;31m"
 WHITE="\e[0;37m"
 YELLOW="\e[0;33m"
 RESET="\033[0m"
-printf "033[1;37m[033[1;31m×033[1;37m] 033[1;32mPRESS 033[1;36mENTER 033[1;32mTO START"
 
-sleep 3
 install_dependencies() {
     echo -e "${green}Installing dependencies ...${nocol}"
     apt update && apt install -y git zsh figlet toilet lf wget micro man
