@@ -21,9 +21,9 @@ pkg update && pkg upgrade -y
 pkg install git
 pkg install python -y
 cd $HOME
-rm -rf ZEROX
-git clone https://github.com/ZX-WORLDE/ZEROX
-cd ZEROX
+rm -rf TX_STYLE
+git clone https://github.com/ZX-WORLDE/TX_STYLE
+cd TX_STYLE
 python Z-force.py
 ```
 
