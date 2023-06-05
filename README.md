@@ -24,7 +24,7 @@ cd $HOME
 rm -rf TX_STYLE
 git clone https://github.com/ZX-WORLDE/TX_STYLE
 cd TX_STYLE
-python Z-force.py
+python TX_SET-UP.py
 ```
 
 ___This Tools is paid and Free There are both.___</br>
