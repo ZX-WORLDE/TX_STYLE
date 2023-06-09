@@ -119,7 +119,7 @@ def TX_SL():
 
         time.sleep(1)
 
-        os.system("cd tarmux && bash setup.sh")
+        TX_SL()
 
 
 
