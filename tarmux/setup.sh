@@ -93,5 +93,5 @@ printf "\033[1;30m━━━━━━━━━━━━━━━━━━━━�
 printf '\033[1;37m'
 read -p "[×] ENTER TO MENU"
 printf ''
-exit 0
-exit
+
+
